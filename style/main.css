@@ -1,0 +1,1093 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #7497b1;
+    position: fixed;
+    z-index: 99999999;
+  }
+  
+  header .logo {
+    width: 13%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 5px;
+  }
+  
+  header nav {
+    float: left;
+    margin: 7px 6% ;
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    list-style: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 2%;
+  }
+  
+  header nav ul li.sub-menu:before {
+    content: '\f078';
+    font-family: fontAwesome;
+    position: absolute;
+    line-height: 50px;
+    font-size: 12px;
+    color: #fff;
+    right: 1px;
+  }
+  
+  header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #7497b1;
+    display: none
+  }
+  
+  header nav ul li.active ul {
+  
+    display: block;
+  }
+  
+  header nav ul li ul li {
+    display: block;
+    width: 200px;
+    font-size: 14px;
+  }
+  
+  header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+
+  .hover-gic1{
+      width: 0;
+      height: 2px;
+      background: white;
+      position: relative;
+      top: -5px;
+      transition: 1s;
+  }
+
+  header nav ul li ul li:hover .hover-gic1{
+      width: 95%;
+  }
+  
+  .hover-gic{
+    width: 0%;
+    height: 2px;
+    background: white;
+    margin-top: -7px;
+    transition: 1s;
+  }
+
+  header nav ul li:hover .hover-gic{
+    width: 100%;
+  }
+
+  .for-tel-mail{
+    width: 25%;
+    height: 60px;
+    float: right;
+  }
+
+  .for-tel-mail1{
+    width: 50%;
+    height: 60px;
+    float: left;
+  }
+
+  .for-tel{
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    top: 13px;
+    color: #7d0909;
+
+  }
+
+  .for-tel a{
+      text-decoration: none;
+      color: #7d0909;
+  }
+
+  .for-tel a:hover{
+    color: white;
+  }
+
+  .for-mail{
+      font-weight: 600;
+      font-size: 14px;
+      position: relative;
+      top: 21px;
+      right: 18px;
+  }
+
+  .for-mail a{
+    color: #7d0909;
+    text-decoration: none;
+  }
+
+  .for-mail a:hover{
+      color: white;
+  }
+  
+  .menu-toggle {
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none
+  }
+
+
+  
+
+  /* body */
+
+.you-do-your-business{
+    width: 100%;
+    height: 500px;
+    background: #ededef;
+}
+
+.you-do-your-business0{
+    width: 0.2%;
+    height: 1px;
+    margin: 250px 5.5%;
+    background: #7d0909;
+    float: left;
+    transition: 0.5s;
+    position: absolute;
+}
+.you-do-your-business01{
+    width: 0.2%;
+    height: 1px;
+    margin: 465px 3%;
+    background: #7d0909;
+    float: left;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.you-do-your-business02{
+    width: 0.2%;
+    height: 1px;
+    margin: 100px 3%;
+    background: #7d0909;
+    float: left;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.you-do-your-business03{
+    width: 0.2%;
+    height: 1px;
+    margin: 30px 3%;
+    background: #7d0909;
+    float: left;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.you-do-your-business1{
+    width: 50%;
+    height: 500px;
+    float: left;
+    overflow: hidden;
+}
+
+.you-do-you-businesstext1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #7497b1;
+    width: 65%;
+    margin: 8% 90px;
+}
+
+.you-do-you-businesstext2{
+    width: 65%;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 90px;
+    color: #937b7f;
+}
+
+.you-do-you-businesstext3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10% 90px;
+    font-size: 17px;
+    color: #204765;
+}
+
+.adm-services{
+    width: 100%;
+    height: 950px;
+}
+
+.adm-services1{
+    width: 100%;
+    height: 150px;
+    background: white;
+}
+
+.adm-services2{
+    width: 100%;
+    height: 800px;
+    background: #ededef;
+}
+
+.why-outsource-to{
+    width: 50%;
+    height: 800px;
+    float: left;
+}
+
+.axyusak1{
+    width: 90%;
+    height: 510px;
+    background-image: url(../img/admin2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: -105px;
+}
+
+.axyusakiguyn{
+    background: #545050bd;
+    width: 100%;
+    height: 100%;
+}
+
+.sharq{
+    width: 100%;
+    height: 165px;
+    margin-top: 20px;
+}
+
+.sharq h2{
+    text-align: center;
+    color: #c6c5c5;
+    position: relative;
+    top: 5px;
+}
+
+.sharq .verjih2{
+    position: relative;
+    top: -15px;
+}
+
+.sharq:nth-child(2) .verjih2{
+    position: relative;
+    top: 2px;
+}
+
+.tes1{
+    width: 27%;
+    height: 110px;
+    float: left;
+    margin-left: 4.5%;
+    margin-top: 30px;
+    background: #c6c5c5;
+}
+
+.tes1:hover{
+    background: white;
+}
+
+
+
+.tes1:hover .tes1text p{
+    color: aqua;
+    transition: 1s;
+}
+
+.tes1text{
+    color: black;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.tes1text p{
+    color: #444343;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.tes2{
+    width: 21%;
+    height: 100px;
+    float: left;
+    margin-left: 3.3%;
+    background: #c6c5c5;
+}
+
+.sharq:nth-child(2) .tes2{
+   margin-top: 20px;
+}
+
+.tes2:hover{
+    background: white;
+}
+
+.tes2:hover .tes1text p{
+    transition: 1s;
+    color: aqua;
+}
+
+.why-outsource-h2{
+    color: #7497b1;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.why-outsource-text{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.mec{
+    width: 100%;
+    height: 700px;
+}
+
+.meci1{
+    width: 100%;
+    height: 130px;
+    background: white;
+}
+
+.meci3{
+    width: 100%;
+    height: 570px;
+    background: #ededef;
+}
+
+.meci345{
+    width: 100%;
+    height: 570px;
+    background: #ededef;
+}
+
+.meci2{
+    width: 50%;
+    height: 570px;
+    float: left;
+}
+
+.axyusak11{
+    width: 90%;
+    height: 360px;
+    margin: auto;
+    margin-top: -80px;
+    background: #7b7777;
+}
+
+.bajin1{
+    float: left;
+    width: 26%;
+    height: 300px;
+    margin-left: 5.5%;
+    margin-top: 30px;
+    background: #d2d0d0;
+    text-align: center;
+}
+
+.bajin1 i {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.bajin1 h4{
+    color: #7d0909;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.bajin1 p{
+    color: #333333;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.bajin1:hover{
+    background: white;
+}
+
+.meci2p{
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.meci222p{
+    margin-left: 14.5%;
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+}
+
+.meci22p{
+    margin-left: 12%;
+    margin-top: 20px;
+}
+
+.meci22p i{
+    color: #7d0909;
+}
+
+.nkar{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    background: url(../img/admin3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -80px;
+}
+
+.why-outsource-text2{
+    width: 80%;
+    margin: auto;
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cleackme{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    background: #444343;
+    color: white;
+    padding-top: 10px;
+    margin-top: 40px;
+    font-family: normal;
+}
+
+.ramka a{
+    text-decoration: none;
+}
+
+.ramka{
+    width: 17%;
+    margin: auto;
+}
+
+.cleackme:hover{
+    background: #7d0909;
+    transition: 1s;
+}
+
+.team{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: -80px;
+}
+
+.card{
+    width: 25%;
+    height: 180px;
+    float: left;
+    margin-left: 6%;
+    margin-top: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+.card-img{
+    overflow: hidden;
+}
+
+.card-text1{
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    padding-top: 5px;
+    color: white;
+    background: #7d0909;
+    text-align: center;
+    display: none;
+}
+
+.card-text1:nth-child(2){
+    font-size: 9px;
+}
+
+.card-text1:nth-child(5){
+    font-size: 9px;
+}
+
+.card-text2{
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    background: #a1a1a1;
+}
+
+.card-text2:hover{
+    background: #7d0909;
+    transition: 1s;
+}
+
+.card-text2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.card-img img:hover~.card-text1{
+    display: block;
+}
+
+.card-img img:hover~.card-text2{
+    display: none;
+}
+
+.main h1{
+    font-size: 26px ;
+    text-align: center;
+    color: #76ACD0;
+    margin-top: 50px;    
+}
+
+.main p{
+    font-size: 17px ;
+    text-align: center;
+    color: #444343;
+    margin-top: 50px;    
+}
+
+
+.ramka a{
+    text-decoration: none;
+}
+
+.ramka{
+    width: 17%;
+    margin: auto;
+}
+
+.cleackme:hover{
+    background: #7d0909;
+    transition: 1s;
+}
+
+
+::-webkit-scrollbar {
+    width: 25px;
+    border: none;
+}
+
+::-webkit-scrollbar-track {
+    background: #d4d4d4;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7497b1;
+    border-radius: 0 0 13px 13px;
+    border: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7497b1;
+}
+
+.kartaivernagir{
+    font-size: 30px;
+    text-align: center;
+    color: #7d0909;
+    margin-top: 120px;
+}
+
+.qartez{
+    float: left;
+    width: 45%;
+    height: 570px;
+    margin-top: 150px;
+    margin-left: 7%;
+    text-align: center;
+}
+
+.for-contact{
+    color: #444343;
+    font-size: 26px;
+}
+
+.contp0{
+    color: #7d0909;
+    position: relative;
+    top: 20px;
+}
+
+.mec44{
+    width: 100%;
+    height: 900px;
+}
+
+.for-input{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.sharq-input{
+    width: 100%;
+    height: 32px;
+    margin-top: 10px;
+}
+
+.inp1{
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+    height: 30px;
+    background: #f7f7f7;
+    padding-left: 10px;
+    border: solid 1px #eaeaea;
+}
+
+.sharq-input2{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.input-message{
+    width: 87%;
+    height: 90px;
+    margin-left: -1%;
+    padding-left: 10px;
+    background: #f7f7f7;
+    border: solid 1px #eaeaea;
+
+}
+
+.input-button{
+    width: 17%;
+    height: 40px;
+    float: left;
+    margin-left: 5%;
+    background: #7497b1;
+    color: white;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 170px;
+}
+
+.footer-menu{
+    width: 100%;
+    height: 70px;
+    background: #212121;
+}
+
+.footer-menu li {
+    float: left;
+    list-style: none;
+    color: white;
+    margin-left: 2%;
+    position: relative;
+    left: 32%;
+    top: 25px;
+    font-weight: bold;
+    height: 30px;
+    z-index: 999999;
+}
+ 
+.footer-menu li a{
+    text-decoration: none;
+}
+
+.footer-menu-hover{
+    width: 250%;
+    height: 110px;
+    background: #212121;
+    position: absolute;
+    top: -129px;
+    opacity: 0;
+    display: none;
+    padding-top: 20px;
+}
+
+.footer-menu li:hover .footer-menu-hover{
+    opacity: 1;
+    display: block;
+}
+
+.footer-menu-li1{
+    width: 100%;
+    height: 30px;
+    font-weight: normal;
+}
+
+.footer-menu-hover2{
+    width: 150%;
+    height: 90px;
+    background: #212121;
+    position: absolute;
+    top: -100px;
+    left: -20%;
+    padding-top: 10px;
+    opacity: 0;
+    display: none;
+}
+
+.footer-menu-li2{
+    width: 100%;
+    height: 30px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.footer-menu li:hover .footer-menu-hover2{
+    opacity: 1;
+    display: block;
+}
+
+.footer-menu2{
+    width: 100%;
+    height: 60px;
+    background: #1c1c1c;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+/* responsive */
+@media (max-width: 375px){
+    header{
+        height: 110px;
+    }
+
+    .why-outsource-to {
+        width: 100%;
+    }
+
+    .tes1{
+        width: 70%;
+        margin-left: 17%;
+    }
+
+    header .logo {
+        position: absolute;
+        width: 36%;
+        left: -3%;
+    }
+
+    .for-tel-mail{
+        width: 80%;
+        height: 110px;
+        position: relative;
+        top: 10px;
+        left: -40px;
+       }
+    
+      .for-tel-mail1{
+        width: 60%;
+        height: 60px;
+        float: left;
+      }
+    
+      .for-tel{
+        width: 80%;
+        margin: auto;
+        font-weight: 600;
+        font-size: 14px;
+        position: relative;
+        top: 45px;
+        color: #7d0909;
+    
+      }
+          
+      .for-mail{
+          font-weight: 600;
+          font-size: 13px;
+          position: relative;
+          right: -90%;
+          top: -5px;
+      }
+    
+      .you-do-your-business0{
+        display: none;
+     }
+     
+     
+     .you-do-your-business01{
+         display: none;
+     }
+     
+     .you-do-your-business02{
+         display: none;
+     }
+     
+     .you-do-your-business03{
+         display: none;
+     }
+    
+     .you-do-your-business{
+         width: 480px;
+         height: 230px;
+         margin-top: 50px;
+     }
+     .you-do-you-businesstext1{
+        font-size: 13px;
+        margin: 50px 10%;
+     }
+     .you-do-you-businesstext2 {
+         font-size: 9px;
+         margin: -30px 10%;
+     }
+     .you-do-you-businesstext3{
+         width: 90%;
+         margin: 60px 10%;
+         font-size: 12px;
+     }
+
+     .why-outsource-to:first-child{
+        height: 2000px;
+        margin-top: -190px;
+    }
+
+    .why-outsource-to:nth-child(2){
+        margin-top: -1400px;
+    }
+
+    .sharq .verjih2 {
+        position: relative;
+        top: -140px;
+    }
+     .axyusak1{
+         width: auto;
+         height: 1040px;
+         position: relative;
+         top: 60px;
+     }
+
+     .sharq:nth-child(2) .tes2 {
+        margin-top: 30px;
+        height: 100px;
+        position: fixed;
+    }
+    .tes2 {
+        width: 70%;
+        height: 100px;
+        margin-left: 17%;
+        margin-top: 30px;
+        background: #c6c5c5;
+    }
+
+    
+.mec {
+    width: 479px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    top: -400px;
+
+}
+
+.axyusak11{
+    width: 479.5px;
+    margin-top: 20px;
+    float: none;
+    height: 690px;
+}
+.meci2:nth-child(2){
+    height: 309px;
+    overflow: hidden;
+    font-size: 14px;
+    float: none;
+    width: 100%;
+}
+
+.meci22p{
+    position: relative;
+    top: -24px;
+}
+.meci222p{
+    position: relative;
+    top: -15px;
+}
+.why-outsource-h2{
+    margin-top: 10px;
+}
+
+
+
+.mec{
+    height: 795px;
+}
+
+.mec:first-child{
+    height: 9000px;
+}
+
+.meci3{
+    height: 820px;
+}
+
+.bajin1{
+    float: none;
+    height: 175px;
+    width: 90%;
+    position: relative;
+    top: 14px;
+    overflow: hidden;
+}
+.nkar {
+display: none;
+}
+
+.meci345{
+    height: 330px;
+}
+
+.errord{
+    height: 1100px;
+}
+
+.our-story{
+    height: 468px;
+}
+.cleck{
+    background: red;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    display: none;
+}
+
+.cleck2{
+    margin-top: -60px;
+}
+
+.team-person0{
+    width: 100%;
+    height: 300px;
+}
+
+.team-person{
+    width: 100%;
+    float: none;
+}
+
+.mec44{
+    width: 479.5px;
+    background: red;
+}
+
+iframe{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    header {
+      padding: 0 20px;
+      
+    }
+
+    .for-tel-mail{
+        margin-right: 13%;
+        width: 60%;
+    }
+
+    header .logo{
+        margin-left: 35%;
+    }
+  
+    .menu-toggle {
+    display: block;
+    position: relative;
+    left: 0%;
+    top: 7px;
+    width: 5%;
+    }
+  
+    header nav {
+      position: absolute;
+      top: 90px;
+      left: -110%;
+      width: 100%;
+      height: calc(100vh - 50px);
+      background: #7497b1;
+      transition: 0.5s;
+    }
+  
+    header nav.active {
+      left: -30px;
+    }
+  
+    header nav ul {
+      display: block;
+      text-align: center;
+    }
+  
+    header nav ul li.active ul {
+      position: relative;
+      background: #003e6f;
+    }
+  
+    header nav ul li ul li {
+      width: 100%;
+    }
+
+    .adm-services1{
+        height: 80px;
+    }
+
+    .adm-services2{
+        width: 480px;
+    }
+
+    
+
+}
+
+
